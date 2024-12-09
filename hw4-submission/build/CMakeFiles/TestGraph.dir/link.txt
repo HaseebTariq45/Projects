@@ -1,0 +1,1 @@
+/mingw64/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/TestGraph.dir/tests/TestGraph.cpp.o -o TestGraph.exe -Wl,--out-implib,libTestGraph.dll.a -Wl,--major-image-version,0,--minor-image-version,0

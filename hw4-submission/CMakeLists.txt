@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(DirectedGraph)
+set(CMAKE_CXX_STANDARD 17)
+include_directories(lib)
+add_executable(TestGraph tests/TestGraph.cpp)
+add_executable(TestBFS tests/TestBFS.cpp)
+add_executable(TestDFS tests/TestDFS.cpp)
